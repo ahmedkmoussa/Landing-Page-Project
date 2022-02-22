@@ -87,6 +87,14 @@ section {
     color: #fff;
 
 }
+@media only screen and (max-width: 435px)
+.navbar__menu li {
+    display: block;
+}
+@media only screen and (max-width: 435px)
+.navbar__menu li a {
+    text-align: center;
+}
 .navbar__menu .menu__link:hover {
     background: #34466e;
     color: #fff;
